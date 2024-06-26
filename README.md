@@ -12,7 +12,7 @@ Then the model's weights is loaded using pre-trained model "digitRecognition.h5"
 4. While the front camera is on, you can change different Sudoku tables and waits for the Solutions.\
 5. Press 'q' on the keyboard to quit and the front camera is turned off.
 
-**Notes**
+**Notes:**\
 Maybe due to the limitation of computational resources, the quality of the camera, the lighting of the video,.. this 9x9 Sudoku Solver only works with printed Sudoku tables.\
 The hand written Sudoku tables cannot be recognized to be solved.
 
