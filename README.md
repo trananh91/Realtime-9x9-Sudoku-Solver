@@ -5,6 +5,12 @@ This is a Computer Vision-based project used for solving 9x9 Sudoku table in Rea
 The model's strucutre is defined in the "Realtime_Sudoku_Solver.ipynb" jupyter notebook, using Tensorflow.Keras module.\
 Then the model's weights is loaded using pre-trained model "digitRecognition.h5".
 
+## Project outline
+This 9x9 Sudoku Solver has 3 main parts in the process of Solving a Sudoku table:\
+1. Sudoku table recognition: The main idea is find the contours and corners, then determine every cells of the table\
+2. Digit Recognition: Using the weights of the pre-trained model, we can recognize the digits in the cells of the table\
+3. Solve the Sudoku table: Applying the Best-First Search algorithm [Reference](https://norvig.com/sudoku.html)
+
 ## Instructions to use 9x9 Sudoku Solver
 1. Run the "Realtime_Sudoku_Solver.ipynb" jupyter notebook.\
 2. When the front camera pops up, clearly show the Sudoku table which needs to be solved to the camera.\
