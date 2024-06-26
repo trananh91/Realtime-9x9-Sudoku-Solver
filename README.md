@@ -6,16 +6,16 @@ The model's strucutre is defined in the "Realtime_Sudoku_Solver.ipynb" jupyter n
 Then the model's weights is loaded using pre-trained model "digitRecognition.h5".
 
 ## Project outline
-This 9x9 Sudoku Solver has 3 main parts in the process of Solving a Sudoku table:\
-1. Sudoku table recognition: The main idea is find the contours and corners, then determine every cells of the table\
-2. Digit Recognition: Using the weights of the pre-trained model, we can recognize the digits in the cells of the table\
+This 9x9 Sudoku Solver has 3 main parts in the process of Solving a Sudoku table:
+1. Sudoku table recognition: The main idea is find the contours and corners, then determine every cells of the table
+2. Digit Recognition: Using the weights of the pre-trained model, we can recognize the digits in the cells of the table
 3. Solve the Sudoku table: Applying the Best-First Search algorithm [Reference](https://norvig.com/sudoku.html)
 
 ## Instructions to use 9x9 Sudoku Solver
-1. Run the "Realtime_Sudoku_Solver.ipynb" jupyter notebook.\
-2. When the front camera pops up, clearly show the Sudoku table which needs to be solved to the camera.\
-3. Waits for the Sudoku Solver then the Solution window will pop up.\
-4. While the front camera is on, you can change different Sudoku tables and waits for the Solutions.\
+1. Run the "Realtime_Sudoku_Solver.ipynb" jupyter notebook.
+2. When the front camera pops up, clearly show the Sudoku table which needs to be solved to the camera.
+3. Waits for the Sudoku Solver then the Solution window will pop up.
+4. While the front camera is on, you can change different Sudoku tables and waits for the Solutions.
 5. Press 'q' on the keyboard to quit and the front camera is turned off.
 
 **Notes:**\
