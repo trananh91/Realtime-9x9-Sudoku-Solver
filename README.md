@@ -3,7 +3,11 @@
 ## Project Description
 This is a Computer Vision-based project used for solving 9x9 Sudoku table in Realtime.\
 The model's strucutre is defined in the "Realtime_Sudoku_Solver.ipynb" jupyter notebook, using Tensorflow.Keras module.\
-Then the model's weights is loaded using pre-trained model "digitRecognition.h5".
+Then the model's weights is loaded using pre-trained model "digitRecognition.h5". This pre-trained model was trained on a subset of [Chars74k dataset](https://info-ee.surrey.ac.uk/CVSSP/demos/chars74k/)
+which only contains numerical digits.
+
+## Demo Video: [Youtube](https://youtu.be/4IzOMSLo5OE)
+Due to the limiation of computational resources, the demo video is not really smooth.
 
 ## Project outline
 This 9x9 Sudoku Solver has 3 main parts in the process of Solving a Sudoku table:
